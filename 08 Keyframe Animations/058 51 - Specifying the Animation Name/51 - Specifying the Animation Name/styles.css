@@ -1,0 +1,57 @@
+body {
+  background-color: #eae067;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #2096c3;
+  margin-top: 30px;
+  cursor: pointer;
+  animation-name: rotate;
+  animation-duration: 5s;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0);}
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

@@ -1,0 +1,73 @@
+body {
+  background-color: #96b4f7;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.dot-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 50%;
+  animation: pulse 1s linear infinite;
+}
+
+.dot1 {
+  animation-delay: 0.2s;
+}
+
+.dot2 {
+  animation-delay: 0.4s;
+}
+
+.dot3 {
+  animation-delay: 0.6s;
+}
+
+
+@keyframes pulse {
+  0%, 100% {transform: scale(0.2);}
+  50% {transform: scale(1);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

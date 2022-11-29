@@ -1,0 +1,69 @@
+body {
+  background-color: #eae067;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #2096c3;
+  margin-top: 30px;
+  cursor: pointer;
+  animation-name: slide;
+  animation-duration: 2500ms; // s / ms
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+/**
+ - normal => starts 0% -> 100%
+ - reverse => starts 100% -> 0%
+ - alternate => starts 0% -> 100% -> 0%
+ - alternate-reverse => starts 100% -> 0% -> 100%
+**/
+
+
+
+@keyframes slide {
+  0% { margin-left: 0px;}
+  100% { margin-left: 300px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

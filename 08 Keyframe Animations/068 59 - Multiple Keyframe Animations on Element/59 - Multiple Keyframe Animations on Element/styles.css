@@ -1,0 +1,63 @@
+body {
+  background-color: #eae067;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #2096c3;
+  margin-top: 30px;
+  cursor: pointer;
+  animation: slide 0.9s infinite, jump 0.9s linear infinite;
+}
+
+@keyframes slide {
+  from {margin-left: 0px;}
+  to {margin-left: 300px;}
+}
+
+@keyframes jump {
+  0% {margin-top: 0px;}
+  50% {margin-top: 150px;}
+  100% {margin-top: 0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

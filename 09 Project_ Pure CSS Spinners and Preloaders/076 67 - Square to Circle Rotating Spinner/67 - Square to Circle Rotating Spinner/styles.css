@@ -1,0 +1,62 @@
+body {
+  background-color: #f0f4fd;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.rotating-square {
+  margin-top: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: #37474f;
+  border-radius: 50%;
+  animation: squareToCircle 1.5s ease infinite;
+}
+
+@keyframes squareToCircle {
+  0% {transform: scale(1) rotate(0);}
+  50% {transform: scale(2) rotate(-180deg); border-radius: 0;}
+  100% {transform: scale(1) rotate(-360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

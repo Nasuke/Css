@@ -1,0 +1,62 @@
+body {
+  background-color: #ecf0f1;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.button {
+  border: 0;
+  background-color: #d2d2d2;
+  font-size: 24px;
+  padding: 20px;
+  margin: 20px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.25s ease-in-out;
+}
+
+.button.grow:hover {
+  transform: scale(1.2);
+}
+
+.button.shrink:hover {
+  transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

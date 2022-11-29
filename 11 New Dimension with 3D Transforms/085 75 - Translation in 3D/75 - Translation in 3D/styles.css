@@ -1,0 +1,75 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Raleway;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.wrapper {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transform: perspective(400px) translate3d(50%, 1rem, -100px);
+}
+
+
+/**
+  *
+  * translateX(), translateY() , translateZ()
+  * translate3d(tx, ty, tz)
+  * translate3d(100px, 100px, 100px) = translateX(100px) translateY(100px) translateZ(100px)
+  * translateX(100px) = translate3d(100px, 0, 0)
+  * translateY(100px) = translate3d(0, 100px, 0)
+  * translateZ(100px) = translate3d(0, 0, 100px)
+  *
+  *
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

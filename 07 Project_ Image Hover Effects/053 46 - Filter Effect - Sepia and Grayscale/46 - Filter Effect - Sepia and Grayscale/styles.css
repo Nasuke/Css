@@ -1,0 +1,90 @@
+body {
+  background-color: #ecf0f1;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+}
+
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	padding: 0;
+	background: #fff;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+figure img {
+  width: 100%;
+}
+
+
+.fig1 img {
+  filter: sepia(100%);
+  transition: 0.3s filter ease;
+}
+
+.fig1:hover img {
+  filter: sepia(0);
+}
+
+
+.fig2 img {
+  filter: grayscale(100%);
+  transition: 0.3s filter ease;
+}
+
+.fig2:hover img {
+  filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

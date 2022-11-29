@@ -1,0 +1,61 @@
+body {
+  background-color: #eae067;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.box {
+  width: 300px;
+  height: 60px;
+  background-color: #2096c3;
+  margin-top: 30px;
+  //transition: 0.5s background-color;
+  cursor: pointer;
+  animation: move 1s infinite;
+}
+
+@keyframes move{
+  0%  { margin-top: 30px;}
+  50% { margin-top: 100px;}
+  100%{ margin-top: 30px;}
+}
+
+.box:hover {
+  background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

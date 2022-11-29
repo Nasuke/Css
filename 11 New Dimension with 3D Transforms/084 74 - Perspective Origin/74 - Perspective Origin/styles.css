@@ -1,0 +1,77 @@
+/**
+  *
+  * perspective-origin: the position at which the user is looking at 3d space
+  * perspective-origin: xAxis yAxis
+  * -> left, center, right, bottom, top
+  * -> percentage e.g 50%
+  * -> length e.g 50px
+  *
+  */
+
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Raleway;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.page-title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.wrapper {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  perspective: 200px;
+  perspective-origin: top left;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transform: translateZ(-100px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

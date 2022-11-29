@@ -1,0 +1,68 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Raleway;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.typing-text {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 30px;
+  font-size: 32px;
+  border-right: 2px solid orange;
+  animation: blink-caret 0.6s step-end infinite, type 5s steps(56, end);
+}
+
+@keyframes blink-caret {
+  0%, 100% {border-color: transparent;}
+  50% {border-color: orange;}
+}
+
+@keyframes type {
+  0% {width: 0;}
+  100% {width: 100%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

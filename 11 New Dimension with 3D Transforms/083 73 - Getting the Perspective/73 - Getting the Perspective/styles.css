@@ -1,0 +1,65 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Raleway;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.wrapper {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transform: perspective(400px) translateZ(-100px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

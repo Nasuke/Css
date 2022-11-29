@@ -1,0 +1,57 @@
+body {
+  background-color: #eae067;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #2096c3;
+  margin-top: 30px;
+  cursor: pointer;
+  animation: moveAround 5s infinite;
+}
+
+@keyframes moveAround {
+  0%, 100% { margin-left: 0; margin-top: 0;}
+  25% {margin-left: 300px; margin-top: 0;}
+  50% {margin-left: 300px; margin-top: 150px;}
+  75% {margin-left: 0; margin-top: 150px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

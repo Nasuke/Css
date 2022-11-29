@@ -1,0 +1,56 @@
+body {
+  background-color: #96b4f7;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.growing-circle-spinner {
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: #e91e63;
+  border-radius: 50%;
+  animation: grow 1s linear infinite;
+}
+
+@keyframes grow {
+  from {transform: scale(0); opacity: 0;}
+  to {transform: scale(1); opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

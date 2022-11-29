@@ -1,0 +1,127 @@
+body {
+  background-color: #ecf0f1;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.button {
+  position: relative;
+  border: 0;
+  background-color: #fff;
+  font-size: 36px;
+  outline: none;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 3px solid #e2e2e2;
+  overflow: hidden;
+}
+
+.icon {
+  position: relative;
+  z-index: 2;
+  transition: 0.4s color, 0.4s transform;
+}
+
+.button:hover .icon {
+  color: white;
+  transform: rotate(360deg)
+}
+
+.facebook::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3b5999;
+  top: 100%;
+  left:0;
+  transition: 0.4s top;
+}
+
+.facebook:hover::before {
+  top: 0;
+}
+
+.youtube::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ff0000;
+  top: 100%;
+  left:0;
+  transition: 0.4s top;
+}
+
+.youtube:hover::before {
+  top: 0;
+}
+
+.twitter::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #55acee;
+  top: 100%;
+  left:0;
+  transition: 0.4s top;
+}
+
+.twitter:hover::before {
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+/**
+  facebook bg color = #3b5999;
+  youtuve bg color = #ff0000
+  twitter bg color = #55acee
+
+  **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

@@ -1,0 +1,85 @@
+body {
+  background-color: #96b4f7;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.heartbit-loader {
+  position: relative;
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  //background-color: #ea6f5a;
+  transform: rotate(45deg);
+  animation: pulse 1.5s ease infinite;
+}
+
+.heartbit-loader::before {
+  content: '';
+  position: absolute;
+  background-color: #ea6f5a;
+  left: 0;
+  top: 20px;
+  width: 60px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+
+.heartbit-loader::after {
+  content: '';
+  position: absolute;
+  background-color: #ea6f5a;
+  left: 20px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+@keyframes pulse {
+  0%, 100% {transform: rotate(45deg) scale(0.75);}
+  50% {transform: rotate(45deg) scale(1);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

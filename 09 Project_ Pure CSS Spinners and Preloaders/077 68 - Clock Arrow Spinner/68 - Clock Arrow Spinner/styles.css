@@ -1,0 +1,84 @@
+body {
+  background-color: #e0c764;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.clock {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.clock::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 0%;
+  animation: rotate 2s linear infinite;
+}
+
+.clock::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 25px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 0%;
+  animation: rotate 0.75s linear infinite;
+}
+
+@keyframes rotate {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

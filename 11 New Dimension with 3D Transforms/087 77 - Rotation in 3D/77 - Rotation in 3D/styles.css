@@ -1,0 +1,80 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Raleway;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.wrapper {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transform: perspective(400px) rotate3d(1, 1, 1, 45deg);
+}
+
+/**
+  * rotateX(), rotateY(), rotateZ()
+  * rotate3d(x, y, z, angle)
+  * x, y, z -> number
+  * angle -> deg, radian ,gradian , turn
+  * rotate3d(1, 0, 0, 45deg) = rotateX(45deg)
+  * rotate3d(0, 1, 0, 45deg) = rotateY(45deg)
+  * rotate3d(0, 0, 1, 45deg) = rotateZ(45deg)
+  * rotate3d(1, 1, 1, 45deg) = rotateX(45deg) rotateY(45deg) rotateZ(45deg)
+  * rotate3d(0, 1, 1, 45deg) = rotateY(45deg) rotateZ(45deg)
+  * rotate3d(1, 0, 1, 45deg) = rotateX(45deg) rotateZ(45deg)
+  *
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

@@ -1,0 +1,82 @@
+/**
+  *
+  * animation-timing-function: predefined keywords
+  * -> ease
+  * -> ease-in
+  * -> ease-out
+  * -> ease-in-out
+  * -> linear
+  * -> step-start
+  * -> step-end
+  *
+  * animation-timing-function: steps(n)
+  * animation-timing-function: steps(n, j)
+  * n -> number of steps
+  * j -> jump keyword -> start || end
+  *
+  * animation-timing-function: cubic-bezier(x1, y1, x2, y2);
+  * timing function that describes a progression of movement as a cubic-bezier curve.
+  *
+  *
+  */
+
+
+
+body {
+  background-color: #eae067;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #2096c3;
+  margin-top: 30px;
+  cursor: pointer;
+  animation-name: rotate;
+  animation-duration: 5s; // s / ms
+  animation-timing-function: cubic-bezier(1, 1.5, 0.3, 0.9);
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0);}
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
